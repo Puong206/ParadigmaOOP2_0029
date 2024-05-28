@@ -29,3 +29,5 @@ int main() {
 
     return 0;
 }
+
+// abstraksi : menutup / melindungi proses

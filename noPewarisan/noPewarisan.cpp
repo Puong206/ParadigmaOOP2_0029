@@ -21,3 +21,5 @@ int main() {
 
 	return 0;
 }
+
+//inheritance / pewarisan = turunan member dari class induk

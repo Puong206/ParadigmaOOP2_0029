@@ -36,3 +36,6 @@ int main() {
 
 	return 0;
 }
+
+//kunci dari polymorphy : kata "virtual", menggunakan pointer (*)
+// &a : referensi dari a
