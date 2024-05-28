@@ -35,8 +35,7 @@ class budi : public pekerja, public pelajar { //pewarisan 2
 public:
     budi(int pUmur) :
         pekerja(pUmur),
-        pelajar(pUmur),
-        orang(pUmur)
+        pelajar(pUmur)
     {
         cout << "Budi dibuat" << endl;
     }
