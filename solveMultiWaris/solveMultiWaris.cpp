@@ -12,7 +12,7 @@ public:
     }
 };
 
-class pekerja :virtual public orang {    //pewarisan 1a
+class pekerja : public orang {    //pewarisan 1a
 public:
     pekerja(int pUmur) :
         orang(pUmur)
