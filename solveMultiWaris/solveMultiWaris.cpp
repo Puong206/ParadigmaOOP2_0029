@@ -22,7 +22,7 @@ public:
 
 };
 
-class pelajar : virtual public orang {   //pewarisan 1b
+class pelajar : public orang {   //pewarisan 1b
 public:
     pelajar(int pUmur) :
         orang(pUmur)
