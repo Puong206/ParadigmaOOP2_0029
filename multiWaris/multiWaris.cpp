@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class orang {
+class orang {     //base
 public:
     int umur;
 
@@ -12,7 +12,7 @@ public:
     }
 };
 
-class pekerja :virtual public orang {
+class pekerja :virtual public orang {    //pewarisan 1a
 public:
     pekerja(int pUmur) :
         orang(pUmur)
@@ -22,7 +22,7 @@ public:
 
 };
 
-class pelajar : virtual public orang {
+class pelajar : virtual public orang {   //pewarisan 1b
 public:
     pelajar(int pUmur) :
         orang(pUmur)
@@ -31,7 +31,7 @@ public:
     }
 };
 
-class budi : public pekerja, public pelajar {
+class budi : public pekerja, public pelajar { //pewarisan 2
 public:
     budi(int pUmur) :
         pekerja(pUmur),
